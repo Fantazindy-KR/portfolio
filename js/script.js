@@ -33,7 +33,7 @@ function clickWarp() {
   } else if (id == "works-btn") {
     $("html, body").animate({ scrollTop: $(".works").position().top }, 1000);
   } else if (id == "contact-btn") {
-    $("html, body").animate({ scrollTop: $(".contact").position().top }, 1000);
+    $("html, body").animate({ scrollTop: $(".footer").position().top }, 1000);
   }
 }
 
